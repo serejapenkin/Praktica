@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.locator3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\Pract\locator3\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\Pract\locator3\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:11:5-81
+12-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:11:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:12:5-79
+13-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:12:22-76
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:13:5-85
+14-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:13:22-82
+15
+16    <application
+16-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:7:5-22:19
+17        android:allowBackup="true"
+17-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:8:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.2] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\3414d4f8c6d2974484da138475b51c4f\core-1.3.2\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:9:9-43
+21        android:label="@string/app_name"
+21-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:10:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:11:9-54
+23        android:supportsRtl="true"
+23-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:12:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Locator3" >
+25-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:13:9-46
+26        <activity android:name="com.example.locator3.CityListActivity" />
+26-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:14:9-63
+26-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:14:19-51
+27        <activity android:name="com.example.locator3.MainActivity" >
+27-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:15:9-21:20
+27-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:15:19-47
+28            <intent-filter>
+28-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:16:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:17:17-69
+29-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:17:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:19:17-77
+31-->E:\Pract\locator3\app\src\main\AndroidManifest.xml:19:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:16:9-19:49
+35            android:name="com.birjuvachhani.locus.LocusActivity"
+35-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:17:13-65
+36            android:launchMode="singleTask"
+36-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:18:13-44
+37            android:theme="@style/LocusTheme" />
+37-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:19:13-46
+38
+39        <receiver
+39-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:21:9-28:20
+40            android:name="com.birjuvachhani.locus.LocationBroadcastReceiver"
+40-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:22:13-77
+41            android:enabled="true"
+41-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:23:13-35
+42            android:exported="false" >
+42-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:24:13-37
+43            <intent-filter>
+43-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:25:13-27:29
+44                <action android:name="com.birjuvachhani.locus.LocationProvider.LocationBroadcastReceiver.action.PROCESS_UPDATES" />
+44-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:26:17-132
+44-->[com.github.BirjuVachhani:locus-android:3.0.1] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\1da675f96519c8473ee31e7964140470\jetified-locus-android-3.0.1\AndroidManifest.xml:26:25-129
+45            </intent-filter>
+46        </receiver>
+47
+48        <activity
+48-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\ca164ee28e446fab7dcc39d549ec249c\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+49            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\ca164ee28e446fab7dcc39d549ec249c\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+50            android:exported="false"
+50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\ca164ee28e446fab7dcc39d549ec249c\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\ca164ee28e446fab7dcc39d549ec249c\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+52
+53        <meta-data
+53-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\eaad86c17299528450dae5632c8f2a49\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+54            android:name="com.google.android.gms.version"
+54-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\eaad86c17299528450dae5632c8f2a49\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+55            android:value="@integer/google_play_services_version" />
+55-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Kirk Novos\.gradle\caches\transforms-2\files-2.1\eaad86c17299528450dae5632c8f2a49\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+56    </application>
+57
+58</manifest>

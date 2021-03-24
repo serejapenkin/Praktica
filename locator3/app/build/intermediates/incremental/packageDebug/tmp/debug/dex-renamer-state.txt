@@ -1,0 +1,4 @@
+#Tue Dec 22 00:36:27 MSK 2020
+base.0=E\:\\Pract\\locator3\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
